@@ -14,8 +14,8 @@
     region: eu-central-1
     count: 2
     security_group: EC2SecurityGroup4
-    aws_access_key: AKIA6POTAAHSJWPHLMW6
-    aws_secret_key: 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
+    aws_access_key: 
+    aws_secret_key: 
 
   tasks:
     - name: Create a security group
@@ -76,8 +76,8 @@
   remote_user: ubuntu
 
   vars:
-    aws_access_key: AKIA6POTAAHSJWPHLMW6
-    aws_secret_key: 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
+    aws_access_key: 
+    aws_secret_key: 
 
   tasks:
     - name: update and upgrade apt packages
@@ -135,8 +135,8 @@
   remote_user: ubuntu
 
   vars:
-    aws_access_key: AKIA6POTAAHSJWPHLMW6
-    aws_secret_key: 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
+    aws_access_key: 
+    aws_secret_key: 
 
   tasks:
     - name: update and upgrade apt packages
